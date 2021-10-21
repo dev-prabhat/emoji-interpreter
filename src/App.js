@@ -33,6 +33,7 @@ export default function App() {
       <h1>Emoji Interpreter </h1>
       <input onChange={emojiInterpreter}></input>
       <div className="meaning">{meaning}</div>
+      <h2>emoji in the DB</h2>
       <ul>
         {emojiArray.map(function (item, index) {
           return (
