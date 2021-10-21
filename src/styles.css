@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+}
+.emoticon {
+  padding: 1rem;
+  font-size: 2rem;
+  display: inline;
+  cursor: pointer;
+}
+.meaning {
+  font-size: 2rem;
+  font-family: bold;
+}
